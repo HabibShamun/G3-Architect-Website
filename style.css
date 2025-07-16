@@ -5,6 +5,49 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
 /* shareds styles*/
 
+.display-flex{
+    display: flex;
+}
+.darker-color{
+    color: rgba(19, 19, 19, 1);
+}
+.dark-color{
+    color: rgba(66, 66, 66, 1);
+}
+.lighter-color{
+    color: rgba(114, 114, 114, 1);
+}
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+/* header*/
+
+/*navbar*/
+.navbar, .banner{
+    max-width: 1340px;
+    margin: 0px auto;
+}
+.navbar{
+    justify-content: space-between;
+}
+.link-items li{
+    list-style: none;
+}
+.link-item{
+    text-decoration: none;
+}
+.link-item{
+    margin-right: 30px;
+}
+.brand{
+    font-size: 2.82rem;
+    font-weight: 700;
+}
+/* banner*/
